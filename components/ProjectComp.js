@@ -9,7 +9,6 @@ import netflix from "../public/netflix.png";
 import covid from "../public/covid.png";
 import coursepro from "../public/coursepro.png";
 import bank from "../public/bank.png";
-import gallery from "../public/gallery.png";
 import irctc from "../public/irctc.png";
 import blog from "../public/blog.png";
 import portfolio from "../public/portfolio.png";
