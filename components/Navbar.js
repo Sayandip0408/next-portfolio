@@ -25,20 +25,20 @@ const Navbar = () => {
                 <div className='px-5 w-full'>
                     <h3 className="text-white font-semibold pb-5 font-Raleway">All Projects</h3>
                     <ul>
-                        <Link href="projects" className='text-gray-300 flex items-center justify-start gap-4 font-Raleway mb-3 text-xl'><Image src={require('../public/project.png')} className='h-12 w-12' /> See all my Projects</Link>
-                        <Link href="https://github.com/Sayandip0408" className='text-gray-300 flex items-center justify-start gap-6 font-Raleway mt-3 text-xl'><Image src={require('../public/github.png')} className='h-10 w-10' /> Visit my GitHub Account</Link>
+                        <Link href="projects" className='text-gray-300 flex items-center justify-start gap-4 font-Raleway mb-3 text-xl'><Image src={require('../public/project.png')} alt='img' className='h-12 w-12' /> See all my Projects</Link>
+                        <Link href="https://github.com/Sayandip0408" className='text-gray-300 flex items-center justify-start gap-6 font-Raleway mt-3 text-xl'><Image src={require('../public/github.png')} alt='img' className='h-10 w-10' /> Visit my GitHub Account</Link>
                     </ul>
                 </div>
                 <div className='px-5'>
                     <h3 className='text-white font-semibold pb-5 font-Raleway'>About Me</h3>
                     <ul>
-                        <Link href="about" className='text-gray-300 flex items-center justify-start gap-4 font-Raleway mb-3 text-xl'><Image src={require('../public/about.png')} className='h-12 w-12' /> Know about me, my Education and Skills</Link>
+                        <Link href="about" className='text-gray-300 flex items-center justify-start gap-4 font-Raleway mb-3 text-xl'><Image src={require('../public/about.png')} alt='img' className='h-12 w-12' /> Know about me, my Education and Skills</Link>
                     </ul>
                 </div>
                 <div className='px-5'>
                     <h3 className='text-white font-semibold pb-5 font-Raleway'>Contact Me</h3>
                     <ul>
-                        <Link href="contact" className='text-gray-300 flex items-center justify-start gap-4 font-Raleway mb-3 text-xl'><Image src={require('../public/contact.png')} className='h-12 w-12' /> Find out the ways to connect with me</Link>
+                        <Link href="contact" className='text-gray-300 flex items-center justify-start gap-4 font-Raleway mb-3 text-xl'><Image src={require('../public/contact.png')} alt='img' className='h-12 w-12' /> Find out the ways to connect with me</Link>
                     </ul>
                 </div>
             </div>

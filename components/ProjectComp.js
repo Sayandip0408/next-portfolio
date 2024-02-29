@@ -180,7 +180,7 @@ const ProjectFun = (data) => {
 
     return (
         <motion.div initial={{ translateX: '-100vw', opacity: 0 }} animate={{ translateX: 0, opacity: 1 }} transition={{ duration: 1, delay: data.delay }} className='rounded-3xl bg-[#161B22] cursor-pointer relative' onMouseOver={() => setShowDetail(true)} onMouseOut={() => setShowDetail(false)}>
-            <Image src={data.image} className='rounded-t-3xl' />
+            <Image src={data.image} alt='img' className='rounded-t-3xl' />
             <div className='h-[fit-content] lg:h-[150px] rounded-b-3xl flex flex-col items-start justify-around'>
                 <h3 className='text-white text-2xl font-bold mb-2 px-2'>{data.projectName}</h3>
                 <p className='text-[#B2BFDB] text-lg font-semibold mb-2 px-2'>{data.technologies}</p>

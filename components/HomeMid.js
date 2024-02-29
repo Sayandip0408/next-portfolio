@@ -11,6 +11,7 @@ const HomeMid = () => {
                 <motion.div initial={{ opacity: 0, scale: 0.5 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }} className='h-[fit-content] w-[fit-content] p-[1px] mx-auto bg-gradient-to-r from-[#4AA4FF] to-[#B575F7] rounded-lg'>
                     <Image
                         src={require('../public/Me2.jpeg')}
+                        alt='img'
                         className='h-[300px] w-[225px] md:h-[400px] md:w-[300px] mx-auto rounded-lg'
                     />
                 </motion.div>
