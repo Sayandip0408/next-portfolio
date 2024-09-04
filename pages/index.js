@@ -10,7 +10,7 @@ export default function HomePage() {
         <title>SayanDip Adhikary</title>
         <meta name="description" content="Personal portfolio website of Sayandip Adhikary" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" href="../public/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <motion.main
         initial={{ opacity: 0 }}

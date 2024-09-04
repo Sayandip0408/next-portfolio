@@ -6,11 +6,11 @@ import React from 'react'
 const ContactComp = () => {
     return (
         <div className='p-5'>
-            <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 1 }} className='flex items-center justify-around'>
+            <div className='flex items-center justify-around'>
                 <Image src={require('../public/hacker.gif')} alt='img' className='h-[300px] w-[300px]' />
-                <p className='hidden lg:block text-white text-3xl font-bold uppercase'>Get in touch</p>
+                <motion.p initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 1 }} className='hidden lg:block text-white text-3xl font-bold uppercase'>Get in touch</motion.p>
                 <Image src={require('../public/me.gif')} alt='img' className='h-[300px] w-[300px] hidden lg:block' />
-            </motion.div>
+            </div>
             <p className='text-white text-center text-lg font-semibold'>You can reach SayanDip via -</p>
             <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 1 }} className='flex flex-col items-center justify-around mt-5'>
                 <Image src={require('../public/gmail.gif')} alt='img' className='h-10 w-10' />

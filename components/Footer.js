@@ -13,20 +13,23 @@ const Footer = () => {
                 <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }} className='flex items-center md:items-start justify-start flex-col m-1'>
                     <Image src={logo} alt='logo' className='text-gray cursor-pointer h-20 w-20' onClick={() => router.push('/')} />
                     <h2 className='text-white  font-bold uppercase'>SayanDip Adhikary</h2>
-                    <p className='text-white text-center md:text-start'>Copyright © 2023 SayanDip Adhikary | All Rights Reserved</p>
+                    <p className='text-white text-center md:text-start'>Copyright © 2024 SayanDip Adhikary | All Rights Reserved</p>
                 </motion.div>
                 <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }} className='flex items-center md:items-start justify-start flex-col m-1 gap-1'>
-                    <Link href="projects" className='text-white uppercase'>
+                    <Link href="projects" className='text-white uppercase border-b border-b-transparent hover:border-b-[#4AA4FF]'>
                         Projects
                     </Link>
-                    <Link href="about" className='text-white uppercase'>
+                    <Link href="about" className='text-white uppercase border-b border-b-transparent hover:border-b-[#4AA4FF]'>
                         About
                     </Link>
-                    <Link href="https://sayandip-gallery.netlify.app/" className='text-white uppercase'>
+                    <Link href="contact" className='text-white uppercase border-b border-b-transparent hover:border-b-[#4AA4FF]'>
+                        Contact
+                    </Link>
+                    <Link href="https://shutter-island.netlify.app/" className='text-white uppercase border-b border-b-transparent hover:border-b-[#4AA4FF]'>
                         Photography
                     </Link>
-                    <Link href="contact" className='text-white uppercase'>
-                        Contact
+                    <Link href="https://codepen.io/Sayandip007" className='text-white uppercase border-b border-b-transparent hover:border-b-[#4AA4FF]'>
+                        Codepen
                     </Link>
                 </motion.div>
                 <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }} className='flex items-center md:items-start justify-start flex-col m-1'>
