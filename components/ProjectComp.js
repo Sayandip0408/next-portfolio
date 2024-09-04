@@ -93,7 +93,7 @@ const ProjectComp = () => {
     return (
         <div className='mt-10 p-1 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 lg:w-[80vw] mx-auto gap-5'>
             {projectData.map((data) => (
-                <motion.div initial={{ translateY: '100vw', opacity: 0, scale: 0.8 }} animate={{ translateY: 0, opacity: 1, scale: 1 }} transition={{ duration: 1 }} className='rounded-3xl bg-[#161B22] cursor-pointer relative'>
+                <motion.div key={data.docID} initial={{ translateY: '100vw', opacity: 0, scale: 0.8 }} animate={{ translateY: 0, opacity: 1, scale: 1 }} transition={{ duration: 1 }} className='rounded-3xl bg-[#161B22] cursor-pointer relative'>
                     <Image src={data.image} alt='img' className='rounded-t-3xl h-[200px] w-full' width={600} height={300} />
                     <div className='h-[fit-content] rounded-b-3xl flex flex-col items-start justify-between p-3 gap-2'>
                         <h3 className='text-white text-2xl font-bold line-clamp-1'>{data.projectName}</h3>
