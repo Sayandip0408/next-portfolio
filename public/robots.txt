@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://sayandip-adhikary.vercel.app/
+
+# Sitemaps
+Sitemap: https://sayandip-adhikary.vercel.app/sitemap.xml

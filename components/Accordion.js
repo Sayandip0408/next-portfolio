@@ -5,7 +5,7 @@ import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 const AccordionData = [
     {
         'question': "What is highest qualification of SayanDip?",
-        'answer': "SayanDip has completed Master of Computer Application (MCA) from University of Kalyani in 2022.",
+        'answer': "Sayandip earned his Master of Computer Applications (MCA) degree from the University of Kalyani in 2022.",
         'id': "0"
     },
     {
@@ -20,7 +20,7 @@ const AccordionData = [
     },
     {
         'question': "What kind of technologies SayanDip knows?",
-        'answer': "Please visit the about page to see the technologies known by SayanDip.",
+        'answer': "Visit the About page to explore the technologies Sayandip is proficient in.",
         'id': "3"
     },
 ]

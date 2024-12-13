@@ -122,7 +122,7 @@ const ContactComp = () => {
                         </button>
                     )}
                 </form>
-                <h3 className='text-white w-full text-center'>or, feel free to reach out directly via email at <Link href='adhikarysayandip@gmail.com' className='text-transparent bg-clip-text bg-gradient-to-r from-[#4AA4FF] to-[#B575F7] underline decoration-[#4AA4FF] items-center justify-center inline-flex gap-1'>adhikarysayandip@gmail.com <IoMail className='text-[#B575F7] mt-1' /></Link></h3>
+                <h3 className='text-white w-full text-center'>or, feel free to reach out directly via email at <Link href='mailto:adhikarysayandip@gmail.com' className='text-transparent bg-clip-text bg-gradient-to-r from-[#4AA4FF] to-[#B575F7] underline decoration-[#4AA4FF] items-center justify-center inline-flex gap-1'>adhikarysayandip@gmail.com <IoMail className='text-[#B575F7] mt-1' /></Link></h3>
             </motion.div>
         </div>
     )
