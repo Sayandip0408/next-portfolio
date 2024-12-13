@@ -29,7 +29,7 @@ export default function Document() {
 
         <meta name="robots" content="index, follow" />
 
-        <script type="application/ld+json">
+        {/* <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
@@ -51,7 +51,23 @@ export default function Document() {
               "availableLanguage": "English"
             }
           }, null, 2)}
+        </script> */}
+        <script type="application/ld+json">
+          {{
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Sayandip Adhikary",
+            "url": "https://sayandip-adhikary.vercel.app/",
+            "image": "https://sayandip-adhikary.vercel.app/Me2.jpeg",
+            "description": "Welcome to the official portfolio of Sayandip Adhikary, a skilled Software Engineer and Frontend Developer with expertise in the MERN stack. Explore my projects, experience, and skills in web development, UI/UX design, and more.",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "email": "adhikarysayandip@gmail.com",
+              "contactType": "Job or project offers"
+            }
+          }}
         </script>
+
       </Head>
       <body>
         <Main />
