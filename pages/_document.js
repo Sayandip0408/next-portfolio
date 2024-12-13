@@ -1,4 +1,4 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from 'next/document';
 
 export const metadata = {
   title: "SayanDip Adhikary",
@@ -14,7 +14,7 @@ export default function Document() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <link rel="canonical" href={metadata.siteUrl} />
-        <meta name="keywords" content="sayandip, sayandip adhikary, sandy, adhikary, portfolio, sayandip portfolio, sayandip's portfolio, sayandip adhikary portfolio, sayandip adhikary's portfolio, software engineer sayandip adhikary, software developer sayandip adhikary, software engineer sayandip, software developer sayandip, frontend engineer sayandip adhikary, frontend developer sayandip adhikary," />
+        <meta name="keywords" content="sayandip, sayandip adhikary, sandy, adhikary, portfolio, sayandip portfolio, sayandip's portfolio, sayandip adhikary portfolio, sayandip adhikary's portfolio, software engineer sayandip adhikary, software developer sayandip adhikary, software engineer sayandip, software developer sayandip, frontend engineer sayandip adhikary, frontend developer sayandip adhikary" />
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content={metadata.title} />
@@ -42,7 +42,7 @@ export default function Document() {
               "email": "adhikarysayandip@gmail.com",
               "contactType": "Job or project offers"
             }
-          })}
+          }, null, 2)}
         </script>
       </Head>
       <body>
