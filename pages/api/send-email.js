@@ -1,5 +1,5 @@
 import nodemailer from 'nodemailer';
-import { emailTemplate } from '../helper/emailTemplate';
+import { emailTemplate } from './emailTemplate';
 
 export default async function handler(req, res) {
     if (req.method === 'POST') {
