@@ -14,7 +14,7 @@ export default function Document() {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <link rel="canonical" href={metadata.siteUrl} />
-        <meta name="keywords" content="sayandip, sayandip adhikary, sandy, adhikary, portfolio, sayandip portfolio, sayandip's portfolio, sayandip adhikary portfolio, sayandip adhikary's portfolio, software engineer sayandip adhikary, software developer sayandip adhikary, software engineer sayandip, software developer sayandip, frontend engineer sayandip adhikary, frontend developer sayandip adhikary" />
+        <meta name="keywords" content="sayandip, sayandip adhikary, sandy, adhikary, portfolio, sayandip portfolio, sayandip adhikary portfolio, sayandip adhikary portfolio, software engineer sayandip adhikary, software developer sayandip adhikary, software engineer sayandip, software developer sayandip, frontend engineer sayandip adhikary, frontend developer sayandip adhikary" />
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content={metadata.title} />
@@ -29,7 +29,7 @@ export default function Document() {
 
         <meta name="robots" content="index, follow" />
 
-        {/* <script type="application/ld+json">
+        <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
@@ -47,27 +47,11 @@ export default function Document() {
               "@type": "ContactPoint",
               "email": "adhikarysayandip@gmail.com",
               "contactType": "Job or project offers",
-              "areaServed": "IN", // India
+              "areaServed": "IN",
               "availableLanguage": "English"
             }
           }, null, 2)}
-        </script> */}
-        <script type="application/ld+json">
-          {{
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Sayandip Adhikary",
-            "url": "https://sayandip-adhikary.vercel.app/",
-            "image": "https://sayandip-adhikary.vercel.app/Me2.jpeg",
-            "description": "Welcome to the official portfolio of Sayandip Adhikary, a skilled Software Engineer and Frontend Developer with expertise in the MERN stack. Explore my projects, experience, and skills in web development, UI/UX design, and more.",
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "email": "adhikarysayandip@gmail.com",
-              "contactType": "Job or project offers"
-            }
-          }}
         </script>
-
       </Head>
       <body>
         <Main />
