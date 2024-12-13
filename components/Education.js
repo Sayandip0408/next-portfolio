@@ -26,7 +26,7 @@ const EduData = [
 
 const EduFun = (data) => {
     const router = useRouter();
-    const gotolink = () => {
+    const goToLink = () => {
         router.push(`${data.link}`);
     }
     return (
@@ -36,7 +36,7 @@ const EduFun = (data) => {
                 <h4 className='text-transparent bg-clip-text bg-gradient-to-r from-[#4AA4FF] to-[#B575F7] text-2xl font-semibold'>{data.course}</h4>
                 <p className='text-white my-1'>{data.institute}</p>
                 <p className='text-white my-1'>{data.board}</p>
-                <motion.button initial={{ scale: 0.9 }} whileHover={{ scale: 1 }} whileTap={{ scale: 0.9 }} onClick={gotolink} className='bg-gradient-to-r from-[#4AA4FF] to-[#B575F7] rounded-full h-10 w-[150px] md:h-12 md:w-[150px] flex items-center justify-center text-white mt-5'>Lern more</motion.button>
+                <motion.button initial={{ scale: 0.9 }} whileHover={{ scale: 1 }} whileTap={{ scale: 0.9 }} onClick={goToLink} className='bg-gradient-to-r from-[#4AA4FF] to-[#B575F7] rounded-full h-10 w-[150px] md:h-12 md:w-[150px] flex items-center justify-center text-white mt-5'>Learn more</motion.button>
             </div>
         </motion.div>
     )

@@ -1,6 +1,5 @@
 import React from 'react'
 import ProjectComp from './ProjectComp'
-import { BsArrowRight } from 'react-icons/bs';
 
 const ProjectHero = () => {
     return (

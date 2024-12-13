@@ -1,10 +1,22 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 
-const skilldata = [
+const skillData = [
+    {
+        "sub": "React JS",
+        "exp": "95%",
+    },
+    {
+        "sub": "Next JS",
+        "exp": "92%",
+    },
+    {
+        "sub": "JavaScript",
+        "exp": "95%",
+    },
     {
         "sub": "C",
-        "exp": "100%",
+        "exp": "99%",
     },
     {
         "sub": "C++",
@@ -15,36 +27,12 @@ const skilldata = [
         "exp": "90%",
     },
     {
-        "sub": "Java",
-        "exp": "80%",
-    },
-    {
-        "sub": "HTML",
-        "exp": "95%",
-    },
-    {
-        "sub": "CSS",
-        "exp": "90%",
-    },
-    {
-        "sub": "JavaScript",
-        "exp": "87%",
-    },
-    {
-        "sub": "React JS",
-        "exp": "85%",
-    },
-    {
-        "sub": "Next JS",
-        "exp": "83%",
-    },
-    {
         "sub": "Flutter",
         "exp": "85%",
     },
     {
         "sub": "Node JS",
-        "exp": "80%",
+        "exp": "90%",
     },
     {
         "sub": "SQL",
@@ -59,12 +47,24 @@ const skilldata = [
         "exp": "90%",
     },
     {
+        "sub": "HTML",
+        "exp": "95%",
+    },
+    {
+        "sub": "CSS",
+        "exp": "90%",
+    },
+    {
         "sub": "Data Structure",
         "exp": "97%",
     },
     {
         "sub": "Object Oriented Programming",
         "exp": "96%",
+    },
+    {
+        "sub": "Java",
+        "exp": "80%",
     },
 ]
 
@@ -84,7 +84,7 @@ const SkillFun = (data) => {
 const Skills = () => {
     return (
         <div className='mt-2 p-2'>
-            {skilldata.map(SkillFun)}
+            {skillData.map(SkillFun)}
         </div>
     )
 }

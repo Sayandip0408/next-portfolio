@@ -16,30 +16,5 @@ body {
     background-color: #0E1117;
 }
 
-@property --angle {
-    syntax: "<angle>";
-    initial-value: 0deg;
-    inherits: false;
-}
-
-.card {
-    background-image: conic-gradient(from var(--angle),
-            #81c0ff,
-            #4AA4FF,
-            #B575F7,
-            #9c38ff);
-    animation: 3s spin linear infinite;
-}
-
-@keyframes spin {
-    from {
-        --angle: 0deg;
-    }
-
-    to {
-        --angle: 360deg;
-    }
-}
-
 @tailwind components;
 @tailwind utilities;

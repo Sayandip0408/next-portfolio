@@ -9,7 +9,7 @@ const contact = () => {
     return (
         <>
             <Head>
-                <title>SayanDip Adhikary | Contact</title>
+                <title>Contact | SayanDip Adhikary</title>
                 <meta name="description" content="Sayandip Adhikary's contact information" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />

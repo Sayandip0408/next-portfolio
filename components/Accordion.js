@@ -20,7 +20,7 @@ const AccordionData = [
     },
     {
         'question': "What kind of technologies SayanDip knows?",
-        'answer': "Please visit the about page to see the technolgies known by SayanDip.",
+        'answer': "Please visit the about page to see the technologies known by SayanDip.",
         'id': "3"
     },
 ]

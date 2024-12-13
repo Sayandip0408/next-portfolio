@@ -29,25 +29,25 @@ const Footer = () => {
                         Photography
                     </Link>
                     <Link href="https://codepen.io/Sayandip007" className='text-white uppercase border-b border-b-transparent hover:border-b-[#4AA4FF]'>
-                        Codepen
+                        CodePen
                     </Link>
                 </motion.div>
                 <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }} className='flex items-center md:items-start justify-start flex-col m-1'>
-                    <Link href="https://www.facebook.com/sayandip.adhikary.96" className='text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] to-[#0091e9] flex items-center justify-start uppercase w-[135px]'>
+                    <Link href="https://www.facebook.com/sayandip.adhikary.96" className='text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] to-[#0091e9] flex items-center justify-start uppercase w-[135px] h-[42px]'>
                         <Image src={require("../public/facebook.png")} alt='img' className='h-10 w-10' />
                         facebook
                     </Link>
-                    <Link href="https://www.instagram.com/sayan.dip7/" className='text-transparent bg-clip-text bg-gradient-to-r from-[#c13da6] to-[#f6a05b] flex items-center justify-start uppercase w-[135px]'>
+                    <Link href="https://www.instagram.com/sayan.dip7/" className='text-transparent bg-clip-text bg-gradient-to-r from-[#c13da6] to-[#f6a05b] flex items-center justify-start uppercase w-[135px] h-[42px]'>
                         <Image src={require("../public/instagram.png")} alt='img' className='h-10 w-10' />
                         instagram
                     </Link>
-                    <Link href="https://github.com/Sayandip0408" className='text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] to-[#7a39d6] flex items-center justify-start uppercase w-[135px] gap-1 ml-1'>
-                        <Image src={require("../public/github.png")} alt='img' className='h-8 w-8' />
-                        github
-                    </Link>
-                    <Link href="https://www.linkedin.com/in/sayandip-adhikary-7359a8199" className='text-transparent bg-clip-text bg-gradient-to-r from-[#0071d4] to-[#0094e8] flex items-center justify-start uppercase w-[135px]'>
+                    <Link href="https://www.linkedin.com/in/sayandip-adhikary-7359a8199" className='text-transparent bg-clip-text bg-gradient-to-r from-[#0071d4] to-[#0094e8] flex items-center justify-start uppercase w-[135px] h-[42px]'>
                         <Image src={require("../public/linkedin.png")} alt='img' className='h-10 w-10' />
                         linkedin
+                    </Link>
+                    <Link href="https://github.com/Sayandip0408" className='text-transparent bg-clip-text bg-gradient-to-r from-[#ffffff] to-[#7a39d6] flex items-center justify-start uppercase w-[135px] gap-1 h-[42px]'>
+                        <Image src={require("../public/github.png")} alt='img' className='h-8 w-8 ml-1' />
+                        github
                     </Link>
                 </motion.div>
             </div>
