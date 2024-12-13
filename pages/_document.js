@@ -32,15 +32,23 @@ export default function Document() {
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Portfolio",
+            "@type": "WebPage",
             "name": "SayanDip Adhikary",
             "url": metadata.siteUrl,
-            "logo": metadata.imageUrl,
             "description": metadata.description,
+            "image": metadata.imageUrl,
+            "mainEntityOfPage": metadata.siteUrl,
+            "publisher": {
+              "@type": "Organization",
+              "name": "SayanDip Adhikary",
+              "logo": metadata.imageUrl
+            },
             "contactPoint": {
               "@type": "ContactPoint",
               "email": "adhikarysayandip@gmail.com",
-              "contactType": "Job or project offers"
+              "contactType": "Job or project offers",
+              "areaServed": "IN", // India
+              "availableLanguage": "English"
             }
           }, null, 2)}
         </script>
