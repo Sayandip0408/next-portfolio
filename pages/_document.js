@@ -27,6 +27,8 @@ export default function Document() {
         <meta name="twitter:description" content={metadata.description} />
         <meta name="twitter:image" content={metadata.imageUrl} />
 
+        <meta name="robots" content="index, follow" />
+
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
