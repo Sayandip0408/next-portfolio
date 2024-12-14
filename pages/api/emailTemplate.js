@@ -11,7 +11,7 @@ export const emailTemplate = ({ name, email, phone, subject, message }) => {
         <p style="background-color: rgba(255, 255, 255, 0.9); padding: 15px; border-radius: 5px; border: 1px solid #4AA4FF; color: #002B5B;">${message}</p>
       </div>
       <footer style="margin-top: 30px; color: #002B5B; font-size: 12px; text-align: center;">
-        <p>— Portfolio Website | Contact Form Notification | Powered by <a href='https://sayandip-adhikary.vercel.app/' style="color: #B575F7; text-decoration: none;">Sayandip Adhikary</a></p>
+        <p>— Portfolio Website | Contact Form Notification | Powered by <a href='https://sayandip-adhikary.vercel.app/' style="text-decoration: none;">Sayandip Adhikary</a></p>
       </footer>
     </div>
   `;
