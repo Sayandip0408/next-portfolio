@@ -6,4 +6,4 @@ Allow: /
 Host: https://sayandip-adhikary.vercel.app/
 
 # Sitemaps
-Sitemap: https://sayandip-adhikary.vercel.app/sitemap-0.xml
+Sitemap: https://sayandip-adhikary.vercel.app/sitemap.xml
