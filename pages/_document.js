@@ -4,7 +4,7 @@ export const metadata = {
   title: "SayanDip Adhikary",
   description: "Welcome to the official portfolio of Sayandip Adhikary, a skilled Software Engineer and Frontend Developer with expertise in the MERN stack. Explore my projects, experience, and skills in web development, UI/UX design, and more. Whether you are looking for innovative solutions or engaging user interfaces, I specialize in creating dynamic and responsive websites and web applications. View my work and get in touch for collaboration opportunities.",
   siteUrl: "https://sayandip-adhikary.vercel.app/",
-  imageUrl: "https://sayandip-adhikary.vercel.app/public/Me2.jpeg"
+  imageUrl: "https://sayandip-adhikary.vercel.app/public/sayandip.jpg"
 };
 
 export default function Document() {
