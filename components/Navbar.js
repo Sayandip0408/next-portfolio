@@ -53,7 +53,7 @@ const Navbar = () => {
                     Contact
                 </Link>
             </ul>
-        </nav >
+        </nav>
     )
 }
 

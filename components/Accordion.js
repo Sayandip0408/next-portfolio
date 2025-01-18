@@ -28,7 +28,7 @@ const AccordionData = [
 const AccordionComp = (item) => {
     const [accordion, setAccordion] = useState(false);
     return (
-        <motion.div initial={{ opacity: 0, scale: 0.5 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 1 }} className='mt-5 border-b border-gray-700 pb-3'>
+        <motion.div key={item.id} initial={{ opacity: 0, scale: 0.5 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 1 }} className='mt-5 border-b border-gray-700 pb-3'>
             <div className='flex items-center justify-between px-2 cursor-pointer' onClick={() => setAccordion(!accordion)}>
                 <h2 className='text-[#D1DEFE] text-xl md:text-2xl font-semibold'>{item.question}</h2>
                 {!accordion ? <AiOutlinePlus className='text-white text-xl' /> : <AiOutlineMinus className='text-white text-xl' />}
