@@ -10,10 +10,10 @@ const HomeMid = () => {
             <div className='mt-10'>
                 <motion.div initial={{ opacity: 0, scale: 0.5 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }} className='h-[fit-content] w-[fit-content] p-[2px] mx-auto rounded-lg'>
                     <Image
-                        src='https://res.cloudinary.com/dgb69w56a/image/upload/v1725458447/gt1rdcd2xeqbxgbi65ps.jpg'
+                        src='https://res.cloudinary.com/dgb69w56a/image/upload/v1738936656/NewProjects/sxmi2k5kassxbjcnkr1r.jpg'
                         alt='img'
-                        height={400}
-                        width={300}
+                        height={4000}
+                        width={3000}
                         className='h-[300px] w-[225px] md:h-[400px] md:w-[300px] mx-auto rounded-lg'
                     />
                 </motion.div>

@@ -43,6 +43,9 @@ const Navbar = () => {
                 </div>
             </div>
             <ul className='hidden md:flex items-center justify-center gap-10'>
+            <Link href="/" className='text-white font-sans text-[17px] flex items-center justify-center gap-1 font-Raleway'>
+                    Home
+                </Link>
                 <Link href="projects" className='text-white font-sans text-[17px] flex items-center justify-center gap-1 font-Raleway'>
                     Projects
                 </Link>

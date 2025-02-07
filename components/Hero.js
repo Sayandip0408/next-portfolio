@@ -12,7 +12,7 @@ const Hero = () => {
                 <p className='text-gray-400 mt-5 text-[17px]'>
                     A passionate Software Engineer with expertise in the MERN stack, dedicated to designing and developing dynamic, user-friendly interfaces and seamless experiences for websites and web applications.
                 </p>
-                <motion.a href='https://drive.google.com/file/d/1M8i4EwgL8B7zSq7wKHVgk64k54YrVujM/view?usp=sharing' target='_blank' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }} transition={{ duration: 0.4 }} className='p-[2px] block h-12 w-[170px] mt-8 rounded-full text-white font-bold text-sm bg-gradient-to-r from-[#4AA4FF] to-[#B575F7]'>
+                <motion.a href='https://drive.google.com/file/d/1LaK3q9bBbuLIFAM2ByUrfWduFLjBNWCr/view?usp=sharing' target='_blank' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }} transition={{ duration: 0.4 }} className='p-[2px] block h-12 w-[170px] mt-8 rounded-full text-white font-bold text-sm bg-gradient-to-r from-[#4AA4FF] to-[#B575F7]'>
                     <span className='flex items-center justify-center h-[100%] w-[100%] rounded-full bg-gradient-to-r from-[#0E1117] to-[#0E1117] hover:bg-gradient-to-r hover:from-[#4AA4FF] hover:to-[#B575F7] hover:transition-colors hover:duration-500'>See Resume</span>
                 </motion.a>
             </motion.div>

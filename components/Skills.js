@@ -71,8 +71,8 @@ const skillData = [
 const SkillFun = (data) => {
     return (
         <>
-            <p className='text-white lg:w-[70vw] mx-auto'>{data.sub}</p>
-            <div className='bg-[#161B22] w-[100%] lg:w-[70vw] mx-auto h-3 rounded-full my-1'>
+            <p className='text-white lg:w-[80vw] mx-auto'>{data.sub}</p>
+            <div className='bg-[#161B22] w-[100%] lg:w-[80vw] mx-auto h-3 rounded-full my-1'>
                 <motion.p initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }} transition={{ duration: 1 }} className={`bg-gradient-to-r from-[#4AA4FF] to-[#B575F7] h-[inherit] text-white text-xs flex items-center justify-center rounded-full`} style={{ width: data.exp }}>
                     {data.exp}
                 </motion.p>
