@@ -30,8 +30,12 @@ const EduFun = (data) => {
         router.push(`${data.link}`);
     }
     return (
-        <motion.div initial={{ translateX: '-100vw', opacity: 0 }} animate={{ translateX: 0, opacity: 1 }} transition={{ duration: 1, delay: data.delay }} className='bg-[#161B22] rounded-3xl h-fit md:h-[450px]'>
-            <Image src={data.image} alt='img' className='rounded-t-3xl h-[180px] md:h-[250px] lg:h-[300px]' />
+        <motion.div 
+        initial={{ translateX: '-100vw', opacity: 0 }} 
+        animate={{ translateX: 0, opacity: 1 }} 
+        transition={{ duration: 1, delay: data.delay }} 
+        className='bg-[#161B22] rounded-3xl h-fit md:h-[500px] lg:h-[470px] xl:h-[450px]'>
+            <Image src={data.image} alt='img' className='rounded-t-3xl h-[180px] md:h-[250px]' />
             <div className='p-5'>
                 <h4 className='text-transparent bg-clip-text bg-gradient-to-r from-[#4AA4FF] to-[#B575F7] text-2xl font-semibold'>{data.course}</h4>
                 <p className='text-white my-1'>{data.institute}</p>
