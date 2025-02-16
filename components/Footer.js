@@ -7,13 +7,15 @@ import { useRouter } from 'next/router';
 
 const Footer = () => {
     const router = useRouter();
+    const currentYear = new Date().getFullYear();
+
     return (
         <footer className='bg-[#0E1016] py-10 px-0 md:px-10 border-t border-gray-700'>
             <div className='h-[fit-content] w-[100%] lg:w-[80vw] mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-0'>
                 <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }} className='flex items-center md:items-start justify-start flex-col m-1'>
                     <Image src={logo} alt='logo' className='text-gray cursor-pointer h-20 w-20' onClick={() => router.push('/')} />
                     <h2 className='text-white  font-bold uppercase'>SayanDip Adhikary</h2>
-                    <p className='text-white text-center md:text-start'>© 2024 Sayandip Adhikary. All Rights Reserved.</p>
+                    <p className='text-white text-center md:text-start'>© {currentYear} Sayandip Adhikary. All Rights Reserved.</p>
                 </motion.div>
                 <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }} className='flex items-center md:items-start justify-start flex-col m-1 gap-1'>
                     <Link href="projects" className='text-white uppercase border-b border-b-transparent hover:border-b-[#4AA4FF]'>
